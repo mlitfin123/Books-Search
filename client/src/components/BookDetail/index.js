@@ -20,27 +20,27 @@ const BookDetail = props => {
                     className="btn btn-primary">
                         View
                 </a>
-        <button onClick={props.handleSave} className="btn btn-primary save-btn" 
-            style={{
-                paddingLeft : 40,
-                paddingRight : 40,
-                marginBottom: 10, 
-                float:"right", 
-                marginLeft: 10 }}>
-            Save Book
-        </button>
-        </div>
-        </div>
-            <div className="row">
-                <div className="col-2 text-center">
-                <img src={props.image} alt="..." className="img-thumbnail" />
+            <button onClick={props.handleSave} className="btn btn-primary save-btn" 
+                style={{
+                    paddingLeft : 40,
+                    paddingRight : 40,
+                    marginBottom: 10, 
+                    float:"right", 
+                    marginLeft: 10 }}>
+                Save Book
+            </button>
             </div>
-            <div className="col-10">
-                <p className="card-text">{props.description}</p>
             </div>
-        </div>
-        <hr style={{ clear: "both"}} />
-    </span>
+                <div className="row">
+                    <div className="col-2 text-center">
+                    <img src={props.image} alt="..." className="img-thumbnail" />
+                </div>
+                <div className="col-10">
+                    <p className="card-text">{props.description}</p>
+                </div>
+            </div>
+            <hr style={{ clear: "both"}} />
+        </span>
     );
 }
 
