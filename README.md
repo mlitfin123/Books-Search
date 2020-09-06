@@ -2,7 +2,7 @@
 
 ## Link to the application deployed on Heroku
 
-https://directoryofusers.herokuapp.com/
+https://searchforyobooks.herokuapp.com/
 
 ## Description 
 This application was designed using React to allow a user to easily search for and save books of interest using a Google Book Search. The user enters a name or category of a book and anything matching the words displays in the search results. The user can then save the books to a separate screen to come back and view at a later date.
